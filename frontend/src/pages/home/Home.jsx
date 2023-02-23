@@ -1,10 +1,10 @@
 import Hero from "./components/hero/Hero";
-import CategorizedProducts from "./components/categorizedProducts/CategorizedProducts";
+import CategorizedProducts from "./components/products_categorized/CategorizedProducts";
 import {useSelector} from "react-redux";
 import Services from "./components/services/Services";
 import Banner from "./components/banner/Banner";
-import AdsSection from "./components/adsSection/AdsSection";
-import Categories from "./components/categories/Categories";
+import AdsSection from "./components/advest_section/AdsSection";
+// import Categories from "./components/categories/Categories";
 
 const Home = () => {
     const products = useSelector(state => state.products.items)
