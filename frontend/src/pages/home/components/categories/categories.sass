@@ -1,0 +1,39 @@
+.categories
+  //mt20px
+  height: 100%
+  padding: 20px 70px
+
+  .mobile-menu-btn
+    display: none
+
+  ul
+    @include flex(space-around, null)
+    height: 100%
+    list-style: none
+    font-size: 14px
+
+    a
+      width: 100%
+      text-decoration: none
+      color: $dark
+      text-transform: uppercase
+      margin: 0 20px
+
+
+      &:hover
+        color: #fff
+
+      li
+        width: 100%
+        padding: 10px 5px
+        text-align: center
+        border: 1px solid #dfdede
+        border-radius: 7px
+        font-weight: 500
+        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1)
+
+        &:hover
+          background-color: $primary
+
+
+

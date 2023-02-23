@@ -1,0 +1,23 @@
+.services
+  @include flex(space-around)
+  flex-wrap: wrap
+
+  .service
+    @include width(300px, 200px)
+    @include flex(space-around)
+    padding: 5px 10px
+
+    .icon
+      svg
+        font-size: 75px
+        margin-right: 15px
+        color: $primary
+
+    .desc
+      h4
+        text-transform: capitalize
+        font-size: 17px
+
+      span
+        font-size: 14px
+        color: #222

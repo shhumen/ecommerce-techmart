@@ -1,0 +1,70 @@
+.product
+  width: 150px
+  max-width: 100%
+  height: auto
+  @include flex(space-between, column)
+  margin: 1rem
+  padding: 2rem
+  box-shadow: -5px -5px 10px rgb(255 255 255 / 50%), 2px 2px 5px rgb(94 104 121 / 30%)
+  border-radius: 15px
+
+  .new
+    padding: 1px 10px
+      //margin-bottom: 5px
+      //width: 45px
+    text-align: center
+    border: 1px solid $primary
+    border-radius: 5px
+    background-color: $primary
+    color: #fff
+    font-weight: 400
+    transition: 0.5s ease
+    &:hover
+      background-color: #fff
+      color: $primary
+  h3
+    margin-top: 10px
+    font-weight: 500
+    font-size: 15px
+
+    &:hover
+      transition: 0.5s ease
+      background-color: #ffffff
+      color: $primary
+
+  .img
+    text-align: center
+    cursor: pointer
+
+    img
+      width: 100%
+      margin-top: 1rem
+      margin-left: auto
+      margin-right: auto
+
+  .details
+    width: 100%
+    padding: 0 10px
+    @include flex(space-between, null)
+    span
+      color: #555555
+      margin-top: 10px
+
+
+  button
+    width: 100%
+    background-color: $primary
+    border: 1px solid $primary
+    color: #ffffff
+    padding: 7px 0
+    margin-top: 20px
+    font-weight: 600
+    border-radius: 5px
+    text-transform: uppercase
+
+    &:hover
+      transition: 0.3s ease
+      background-color: #fff
+      color: $primary
+      cursor: pointer
+

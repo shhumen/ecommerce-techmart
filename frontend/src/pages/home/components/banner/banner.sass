@@ -1,0 +1,44 @@
+.banner
+  margin: 4rem auto
+  position: relative
+
+  .desc
+    position: absolute
+    bottom: 20%
+    left: 24.5%
+    @include flex()
+
+    button
+      color: #fff
+      font-size: 15px
+      border: none
+      background-color: #4b18ee
+      padding: 5px 25px
+      border-radius: 30px
+      margin-right: 20px
+
+    a
+      color: $primary
+      @include flex()
+      text-decoration: none
+      font-size: 15px
+      span
+        margin-right: 5px
+
+  .banner-img
+    width: 100%
+    height: auto
+
+.ads
+  //padding: 0 30px
+  margin: 1.5rem 0
+  width: 100%
+  @include flex(center)
+
+  .banner-image
+    text-align: center
+
+  img
+    margin: 0 auto
+    width: 80%
+
